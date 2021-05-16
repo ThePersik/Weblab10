@@ -1,0 +1,29 @@
+body {
+  min-height: 100vh;
+}
+
+main {
+ height: calc(100vh - 40vh);
+ display: flex;
+}
+
+article {
+ flex: 1
+}
+nav {
+ order: -1
+}
+
+nav,aside {
+  background: #808080;
+  padding: 10px;
+  width: 20vh;
+}
+header,footer {
+  background: rgba(0,0,0,0.18);
+  height: 20vh;
+  padding: 10px;
+}
+article {
+  padding: 10px;
+}
